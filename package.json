@@ -1,8 +1,9 @@
 {
   "name": "react-astrum",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React Astrum: a canvas based component with customizable parallax stars animation",
   "main": "build/index.js",
+  "repository": "git@github.com:nikpundik/react-astrum.git",
   "scripts": {
     "test": "jest src",
     "start": "webpack --watch",
@@ -16,7 +17,7 @@
     "canvas"
   ],
   "peerDependencies": {
-    "react": "^15.5.4"
+    "react": "^15.0.1 || ^16.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
