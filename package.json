@@ -1,6 +1,6 @@
 {
   "name": "react-astrum",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Astrum: a canvas based component with customizable parallax stars animation",
   "main": "build/index.js",
   "repository": "git@github.com:nikpundik/react-astrum.git",

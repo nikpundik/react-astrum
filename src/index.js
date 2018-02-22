@@ -27,6 +27,7 @@ export default class Astrum extends Component {
       nextProps.speed,
       nextProps.down,
     );
+    if (this.ctx && !nextProps.sparkle) this.ctx.globalAlpha = 1;
   }
 
   tick() {
