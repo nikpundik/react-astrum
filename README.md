@@ -1,4 +1,4 @@
-# React Astrum WIP
+# React Astrum
 
 a canvas based component with customizable parallax stars animation
 
@@ -20,3 +20,6 @@ a canvas based component with customizable parallax stars animation
 
 ### down
 `bool` Invert the animation towards the bottom (default to false)
+
+### sparkle
+`bool` Make it sparkle (default to false)

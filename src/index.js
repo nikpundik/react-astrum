@@ -33,6 +33,7 @@ export default class Astrum extends Component {
     this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
     this.ctx.fillStyle = this.props.color;
     this.stars.forEach((star) => {
+      if (this.props.sparkle) this.ctx.globalAlpha = Math.random();
       this.ctx.fillRect(star.x, star.y, star.w, star.w);
       updateStar(star, this.canvas.height);
     });
@@ -66,4 +67,5 @@ Astrum.defaultProps = {
   color: '#ffffff',
   width: 1000,
   height: 200,
+  sparkle: false,
 };
