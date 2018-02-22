@@ -4,6 +4,9 @@ a canvas based component with customizable parallax stars animation
 
 [Demo](https://react-astrum.now.sh/)
 
+## Installation
+`npm install --save react-astrum`
+
 ## Props
 
 ### width, height
